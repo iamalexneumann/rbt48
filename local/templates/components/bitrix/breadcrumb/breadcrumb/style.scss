@@ -1,0 +1,46 @@
+.breadcrumb {
+  --breadcrumb-color: #ACBBCD;
+  --breadcrumb-color-hover: #ACBBCD * 0.85;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: var(--font-size-small);
+}
+
+.breadcrumb-item {
+  &:first-child {
+    font-size: 0;
+
+    & a::before {
+      display: inline-block;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font: var(--fa-font-solid);
+      content: "\f015";
+      font-size: var(--font-size-small);
+      line-height: 1.4;
+    }
+  }
+
+  &.active {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: var(--breadcrumb-color);
+    font-weight: 700;
+  }
+
+  & + &::before {
+    font: var(--fa-font-solid);
+    content: "\f105";
+    color: var(--breadcrumb-color);
+    line-height: 1.4;
+  }
+
+  a {
+    color: var(--breadcrumb-color);
+
+    &:hover {
+      color: var(--breadcrumb-color-hover);
+    }
+  }
+}
