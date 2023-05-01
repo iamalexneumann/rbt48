@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="rbt48" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="rbt48">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/rbt48.beget.tech/public_html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/rbt48.beget.tech/public_html/upload" />
+            <excludedPath path="/rbt48.beget.tech/public_html/bitrix" />
+            <excludedPath local="true" path="$PROJECT_DIR$/upload" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
