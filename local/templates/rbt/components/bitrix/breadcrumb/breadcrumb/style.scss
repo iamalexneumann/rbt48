@@ -7,20 +7,6 @@
 }
 
 .breadcrumb-item {
-  &:first-child {
-    font-size: 0;
-
-    & a::before {
-      display: inline-block;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      font: var(--fa-font-solid);
-      content: "\f015";
-      font-size: var(--font-size-small);
-      line-height: 1.4;
-    }
-  }
-
   &.active {
     display: inline-block;
     text-rendering: auto;
